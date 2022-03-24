@@ -1,3 +1,4 @@
+//------------------ MongoDB -----------------//
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
@@ -18,7 +19,7 @@ mongoose
 // routes
 // homepage
 app.get("/", (_req, res) => {
-	res.send("Welcome");
+	res.send("Students");
 });
 
 // get all students
